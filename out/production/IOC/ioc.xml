@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+    <bean id="user1" class="com.wang.bean.User">
+        <property name="name">
+            <value>小王</value>
+        </property>
+        <property name="password">
+            <value>fdsa951</value>
+        </property>
+    </bean>
+    <bean id="student1" class="com.wang.bean.Student">
+        <property name="id">
+            <value>2015060101005</value>
+        </property>
+        <property name="name">
+            <value>王阳</value>
+        </property>
+    </bean>
+</beans>
